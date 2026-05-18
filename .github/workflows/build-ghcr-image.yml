@@ -6,7 +6,7 @@ on:
 jobs:
   Building:
       runs-on: ubuntu-latest
-      name: "Build V2ray images"
+      name: "Build WebSSH images"
       env:
         DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
         DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
